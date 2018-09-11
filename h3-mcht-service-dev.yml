@@ -1,6 +1,0 @@
-logging:
-  level: debug
-version: 1.0.0
-modifiedBy: wang
-server:
-  port: 9999
