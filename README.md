@@ -1,2 +1,2 @@
 # spcloud-config
-spring cloud 配置文件
+spring cloud dev 配置文件
