@@ -4,8 +4,3 @@ spring:
     host: 47.96.154.183
     port: 6379
     password: w5571393#
-  datasource:
-    driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://47.96.154.183:3306/springcloudbook?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8
-    username: root
-    password: w5571393#
