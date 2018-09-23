@@ -4,3 +4,6 @@ spring:
     host: 47.96.154.183
     port: 6379
     password: w5571393#
+  rabbitmq:
+    addresses: amqp://admin:123456@47.96.154.183:5672    
+   
