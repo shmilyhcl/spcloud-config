@@ -9,3 +9,7 @@ spring:
     port: 5672
     username: admin
     password: 123456
+  #将采样比例设置为1.0，也就是全部都需要。默认是 0.1
+  sleuth:
+      sampler:
+        probability: 1.0
