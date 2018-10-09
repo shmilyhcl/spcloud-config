@@ -1,9 +1,9 @@
 spring:
   redis:
     remote: false
-    host: 47.96.154.183
-    port: 6379
-    password: w5571393#
+    host: 192.168.10.60
+    port: 6381
+    #password: w5571393#
   rabbitmq:
     host: 47.96.154.183
     port: 5672
