@@ -18,4 +18,24 @@ spring:
   sleuth:
       sampler:
         probability: 1.0
+  cloud:
+    config:
+      fail-fast: true
+      discovery:
+        service-id: config-server
+        enabled: true
+      profile: dev
+      label: master
+    bus:
+      enabled: true
+      trace:
+       enabled: true
+  sleuth:
+    sampler:
+      probability: 1.0
 hello: hello world!2
+feign:
+  hystrix:
+    enabled: true
+management.endpoints.web.exposure.include: *
+management.endpoint.health.show-details: ALWAYS
