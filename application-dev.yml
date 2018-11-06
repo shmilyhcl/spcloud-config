@@ -30,9 +30,6 @@ spring:
       enabled: true
       trace:
        enabled: true
-  sleuth:
-    sampler:
-      probability: 1.0
 hello: hello world!2
 feign:
   hystrix:
