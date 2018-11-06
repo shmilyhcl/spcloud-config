@@ -37,7 +37,6 @@ hello: hello world!2
 feign:
   hystrix:
     enabled: true
-management.endpoints.web.exposure.include: *
 management.endpoint.health.show-details: ALWAYS
 eureka.instance.leaseRenewalIntervalInSeconds: 30
 eureka.instance.health-check-url-path: /actuator/health
